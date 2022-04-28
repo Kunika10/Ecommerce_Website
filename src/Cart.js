@@ -31,6 +31,12 @@ function Cart () {
         <Link underline="hover" to= "/" className='product_breadcrumbs'>
         Home
         </Link>
+        <Link underline="hover" to= "/" className='product_breadcrumbs'>
+        Home
+        </Link>
+        <Link underline="hover" to= "/" className='product_breadcrumbs'>
+        Home
+        </Link>
         <Typography color="text.primary">Cart</Typography> 
       </Breadcrumbs>
       </div>
