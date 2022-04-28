@@ -11,6 +11,7 @@ import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import product_img1 from './images/shop-img1-600x821.jpg';
 import product_img2 from './images/shop-img2-600x821.jpg';
 import product_img3 from './images/shop-img3-600x821.jpg';
+import { Helmet } from 'react-helmet';
 
 const images = [
     {
@@ -52,6 +53,10 @@ function Productview() {
   return (
     <>
     <div className='product_view_section'>
+    <Helmet>
+            <title>Productview</title>
+            <meta name="description" content="Lorem ipsum dolor sit amet" />
+        </Helmet>
       <Container>
       <div className='product_view_inner'>
             <div role="presentation" className= "page_breadcrumbs" onClick={handleClick}>

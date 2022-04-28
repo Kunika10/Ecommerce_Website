@@ -4,6 +4,7 @@ import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import { Link } from 'react-router-dom';
 import { Container, Row, Table } from 'react-bootstrap';
 import product_img1 from './images/shop-img1-600x821.jpg';
+import { Helmet } from 'react-helmet';
 
 
 function handleClick(event) {
@@ -23,6 +24,10 @@ function Cart () {
   return (
     <>
 <div>
+<Helmet>
+            <title>Cart</title>
+            <meta name="description" content="Lorem ipsum dolor sit amet" />
+        </Helmet>
     <Container>
     <div role="presentation" className= "page_breadcrumbs" onClick={handleClick}>
             <div className='product_page_inner'>

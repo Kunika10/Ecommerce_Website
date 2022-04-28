@@ -15,6 +15,7 @@ import ArrowForwardIosOutlinedIcon from '@material-ui/icons/ArrowForwardIosOutli
 import { makeStyles } from '@material-ui/core/styles';
 import Slider from '@material-ui/core/Slider';
 import { Button, Container } from 'react-bootstrap';
+import {Helmet} from "react-helmet";
 
 
 const useStyles = makeStyles({
@@ -44,6 +45,10 @@ function handleClick(event) {
   return (
     <>
     <div className='product_section'>
+    <Helmet>
+            <title>Product</title>
+            <meta name="description" content="Lorem ipsum dolor sit amet" />
+        </Helmet>
         <Container>
         <div role="presentation" className= "page_breadcrumbs" onClick={handleClick}>
             <div className='product_page_inner'>

@@ -40,7 +40,9 @@ function App() {
     <ScrollToTop/>
     <Scrolltop/>
     <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route path="/" element={<Home/>}
+
+      />
       <Route path="product" element={<Product/>}/>
       <Route path="productview" element={<Productview/>}/>
       <Route path="contactus" element={<Contactus/>}/>

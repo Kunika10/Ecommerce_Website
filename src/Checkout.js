@@ -3,6 +3,7 @@ import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import Typography from '@material-ui/core/Typography';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -20,6 +21,10 @@ const handleChange = () => {
   return (
     <>
         <div>
+        <Helmet>
+            <title>Checkout</title>
+            <meta name="description" content="Lorem ipsum dolor sit amet" />
+        </Helmet>
             <Container>
             <div role="presentation" className= "page_breadcrumbs" onClick={handleClick}>
             <div className='product_page_inner'>
