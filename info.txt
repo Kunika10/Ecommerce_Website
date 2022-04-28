@@ -1,0 +1,8 @@
+home page 
+login page 
+drawer
+dropdown
+product
+product view 
+search bar 
+add to cart drawer 
