@@ -137,7 +137,7 @@ function Productview() {
                 </div>
               </div>
                 <div className='col-md-6 col-lg-6 col-xl-6 col-xs-6'>
-                <Link to = 'Cart' className='product_view_link'>
+                <Link to = '/Cart' className='product_view_link'>
                 <div className='product_view_cart'>
                 <p> ADD TO CART </p>
                 </div>

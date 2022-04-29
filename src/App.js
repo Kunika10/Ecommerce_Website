@@ -16,7 +16,7 @@ import Checkout from "./Checkout";
 import Scrolltop from "./Scrolltop";
 import Pages from "./Pages";
 import Blog from "./Blog";
-import Landing from "./Landing";
+import Pagenotfounds from "./Pagenotfound";
 
 
 const scrollCounter = document.querySelector('.js-scroll-counter');
@@ -40,16 +40,16 @@ function App() {
     <ScrollToTop/>
     <Scrolltop/>
     <Routes>
-      <Route path="/" element={<Home/>}
-
-      />
+    
+      <Route path="/" element={<Home/>}/>
       <Route path="product" element={<Product/>}/>
       <Route path="productview" element={<Productview/>}/>
       <Route path="contactus" element={<Contactus/>}/>
-      <Route path="productview/Cart" element={<Cart/>}/>
+      <Route path="/Cart" element={<Cart/>}/>
       <Route path="/checkout" element={<Checkout/>}/>
       <Route path="pages" element={<Pages/>}/>
       <Route path="blog" element={<Blog/>}/>
+      <Route path="*" element={<Pagenotfounds/>} />
     </Routes>
     <Homepopup/>
     <Footer/>
