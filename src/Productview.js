@@ -41,13 +41,6 @@ const images = [
 function Productview() {
   const [counter, setCounter] = useState(0);
  
-//  const increase = () => {
-  
-//  };
-
-//  const decrease = () => {
-//    setCounter(count => count - 1);
-//  };
  const [key, setKey] = useState('home');
 
   return (

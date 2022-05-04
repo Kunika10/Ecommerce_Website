@@ -294,8 +294,6 @@ font-family: 'Cormorant Garamond', serif;
         margin: 0;
         padding: 0;
         position: relative;
-        display: inline-block;
-        vertical-align: middle;
         width: auto;
         margin: 0;
         font-family: Yantramanav,sans-serif;
@@ -307,7 +305,6 @@ font-family: 'Cormorant Garamond', serif;
         text-transform: uppercase;
         border-radius: 0;
         outline: 0;
-        transition: color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out;
         display: block;
         margin-top: 12px;
 }
